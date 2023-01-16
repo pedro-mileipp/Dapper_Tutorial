@@ -13,18 +13,22 @@ namespace BaltaDataAccess
 
             using (var connection = new SqlConnection(connectionString))
             {   
-                // ReadView(connection);
-                // ExecuteScalar(connection);
-                // ExecuteReadProcedure(connection);
-                // ExecuteProcedure(connection);
                 // CreateCategory(connection);
                 // CreateManyCategory(connection);
                 // UpdateCategory(connection);
                 // DeleteCategory(connection);
                 // ListCategories(connection);
-                // Console.WriteLine();
                 // GetCategory(connection);
+                // ExecuteProcedure(connection);
+                // ExecuteReadProcedure(connection);
+                // ExecuteScalar(connection);
+                // ReadView(connection);
                 // OneToOne(connection);
+                // OneToMany(connection);
+                // QueryMutiple(connection);
+                // SelectIn(connection);
+                // Like(connection, "backend");
+                // Transaction(connection);
 
             }
         }
